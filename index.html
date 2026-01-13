@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Teste RPG</title>
+<link rel="stylesheet" href="teste.css">
+</head>
+<body>
+    <!-- Menu inicial -->
+    <nav>
+        <div class="nome">
+            <a href="teste.html">R.P.G</a>
+        </div>
+        <div class="menu">
+            <a href="#">AGENTES</a>
+            <a href="#">CAMPANHAS</a>
+            <a href="#">AMEAÇAS</a>
+            <a href="#">HOMEBREW</a>
+            <a href="#">PATENTE</a>
+        </div>
+        <div class="login">
+            <a href="#">Login</a>
+        </div>
+    </nav>
+    <!-- Conteúdo do site -->
+    <div class="section">
+        <div class="texto">
+            <h1>Começa aqui a sua jornada</h1>
+            <p>Cada personagem tem suas próprias habilidades e características únicas.</p>
+        </div>
+        <div class="imagem">
+            <img src="img/AtributosImg-Pequeno-39bf3923.png" alt="">
+            <input autocomplete="off" type="text" class="meuNumero" >
+            <input autocomplete="off" type="text" class="meuNumero" >
+            <input autocomplete="off" type="text" class="meuNumero" >
+            <input autocomplete="off" type="text" class="meuNumero" >
+            <input autocomplete="off" type="text" class="meuNumero" >
+        </div>
+    </div>
+
+    <div class="section2">
+        <p>FICHA:</p>
+        
+        <div></div>
+    </div>
+
+
+    <!-- Javascript -->
+<script>
+ const inputs = document.querySelectorAll(".meuNumero");
+
+  inputs.forEach((input, index) => {
+    const chave = "numeroSalvo_" + index;
+    const valorSalvo = localStorage.getItem(chave);
+
+    if (valorSalvo !== null) {
+      input.value = valorSalvo;
+    } else {
+      input.value = "0"; // valor inicial
+      localStorage.setItem(chave, "0");
+    }
+
+    input.addEventListener("input", () => {
+      localStorage.setItem(chave, input.value);
+    });
+  });
+</script>
+
+</body>
+</html>
