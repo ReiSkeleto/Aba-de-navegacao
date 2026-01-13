@@ -9,16 +9,16 @@ Treinar conceitos básicos de front-end, como:
 - Criação de menus e componentes visuais
 - Organização de layout
 
-## 🗺️ Sobre o projeto
+## Sobre o projeto
 O site apresenta uma **aba de navegação, para um site com estética de RPG  
 Atualmente, a navegação é **apenas visual (não funcional)**, servindo como exercício de design e estilização.
 
-## 🌐 Site no ar
+## Site no ar
 🔗
 
-## 🛠️ Tecnologias utilizadas
+## Tecnologias utilizadas
 - HTML
 - CSS
 
-📌 Obs
-🚧 Projeto de estudo / navegação apenas estética
+# 📌 Obs
+Projeto de estudo / navegação apenas estética
