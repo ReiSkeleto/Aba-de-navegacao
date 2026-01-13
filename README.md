@@ -14,7 +14,7 @@ O site apresenta uma **aba de navegação, para um site com estética de RPG
 Atualmente, a navegação é **apenas visual (não funcional)**, servindo como exercício de design e estilização.
 
 ## Site no ar
-🔗
+🔗 https://reiskeleto.github.io/Aba-de-navegacao/
 
 ## Tecnologias utilizadas
 - HTML
