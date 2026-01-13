@@ -1,4 +1,4 @@
-# 🧙‍♂️ Navegação RPG
+Navegação RPG
 
 Projeto de estudo desenvolvido para praticar HTML e CSS com foco na criação de uma interface de navegação com tema inspirado em RPG**.
 
